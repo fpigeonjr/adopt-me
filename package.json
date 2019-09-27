@@ -1,0 +1,25 @@
+{
+  "name": "adopt-me",
+  "version": "1.0.0",
+  "description": "pet adoption site",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier \"src/**/*.{js, html}\" --write",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint \"**/*.{js,jsx}\" --quiet"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fpigeonjr/adopt-me.git"
+  },
+  "author": "@fpigeonjr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fpigeonjr/adopt-me/issues"
+  },
+  "homepage": "https://github.com/fpigeonjr/adopt-me#readme",
+  "devDependencies": {
+    "eslint": "^6.4.0",
+    "eslint-config-prettier": "^6.3.0"
+  }
+}
